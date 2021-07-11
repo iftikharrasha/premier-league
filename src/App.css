@@ -1,0 +1,51 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.c_custom{
+  max-width: 1440px !important;
+}
+
+/* fonts */
+.bold-88{
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.lit-18{
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.semi-24{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.semi-42{
+  font-size: 2.635rem;
+  font-weight: 600;
+}
+
+/* colors */
+.c-tag-1{
+  color: #000;
+}
+
+.c-tag-2{
+  color: #95962E;
+}
+
+/* button */
+.btn-tag-1{
+  background-color: #95962E;
+  color: #fff;
+}
+
+.btn-tag-1:hover{
+  background-color: #01426C;
+  color: #fff;
+}

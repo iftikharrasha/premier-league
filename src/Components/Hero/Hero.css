@@ -1,0 +1,46 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-footer {
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    line-height: 22px;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-footer span {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-footer span::before, .hero-footer span::after{
+    content: "";
+    position: absolute;
+    height: 6px;
+    border-bottom: 2px solid #C4BBB6;
+    top: 5px;
+    width: 70px;
+}
+
+.hero-footer span::before {
+    right: 100%;
+    margin-right: 8px;
+}
+
+.hero-footer span::after {
+    left: 100%;
+    margin-left: 8px;
+}
+
+.hero-footer span{
+    color: #C4BBB6;
+}
