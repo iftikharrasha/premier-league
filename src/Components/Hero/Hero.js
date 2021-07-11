@@ -11,9 +11,9 @@ const Hero = () => {
                         <Row>
                             <Col>
                                 <div className="hero-inner">
-                                    <p className="lit-18 ml-1">20th July 2021</p>
-                                    <h1 className="bold-88">FINAL TO BE<br />PLAYED AT<br />OLD TRAFFORD</h1>
-                                    <button className="btn btn-tag-1 ml-1 my-4 px-4 py-2">LEARN MORE</button>
+                                    <p className="lit-18 c-tag-3 ml-1">20th July 2021</p>
+                                    <h1 className="bold-88 c-tag-3">FINAL TO BE<br />PLAYED AT<br />OLD TRAFFORD</h1>
+                                    <button className="btn btn-tag-1 c-tag-3 ml-1 my-4 px-4 py-2">LEARN MORE</button>
                                 </div>
                             </Col>
                         </Row>

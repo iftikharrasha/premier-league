@@ -16,6 +16,7 @@ import LazyLoad from './Components/LayLoadSpinner/LazyLoadSpinner';
 import './App.css';
 import Hero from './Components/Hero/Hero.js';
 import Teams from './Components/Teams/Teams.js';
+import TeamDetails from './Components/TeamDetails/TeamDetails.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -37,9 +38,9 @@ function App() {
                                             <Teams></Teams>
                                         </Suspense>
                                 </Route>
-                                <Route path="/team/:outletKey">
+                                <Route path="/team/:teamKey">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                          <NotFound></NotFound>
+                                          <TeamDetails></TeamDetails>
                                         </Suspense>
                                 </Route>
                                 <Route exact path="/">

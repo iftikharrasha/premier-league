@@ -11,10 +11,9 @@ const Teams = () => {
         fetch('https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League')
         .then(res => res.json())
         .then(data => {
-            console.log(data);
-            console.log(data.teams);
+            // console.log(data);
+            // console.log(data.teams);
             setTeams(data.teams);
-            // setTeams(data.teams[0])
         })
         .catch(error => console.log(error))
     }, []);
